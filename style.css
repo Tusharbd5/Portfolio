@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    text-align: justify;
+}
+.orange-highlight{
+    color: orange;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 100%;
+    padding-left: 10px;
+}
+.contract-btn{
+    text-decoration: none;
+    background-image: linear-gradient(60deg, rgb(255, 28, 28), salmon);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    
+}
+section{
+    height: 500px;
+    margin-bottom: 50px;
+    
+}
+.top-part{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.middle-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle-part h3{
+    color: goldenrod;
+}
+.bottom-part img{
+    width: 70%;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    background-position: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+.bottom-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+    margin-bottom: 60px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
